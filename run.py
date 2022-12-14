@@ -9,6 +9,7 @@ import random
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
+from word_checker.py import WordChecker
 
 
 # install & import pyfiglet module from https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/  # noqa
@@ -194,7 +195,7 @@ def main():
     Start the game using the introduction() method.
     """
     answer = get_answer_from_file()
-    game = Game(word_checker(answer))
+    game = Game(WordChecker(answer))
     game.introduction()
 
 
