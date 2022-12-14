@@ -1,14 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Word-It
+Word-It is a five letter word guessing game that is based on popular game "Wordle". I chose to base my project off this because I became obsessed with Wordle during lockdowns and love word games. The rules are simply, the user aims to guess a random 5 letter word within six attempts and they will be given colour coded clues as they play as to whether a letter is correct, incorrect, or correct but just in the wrong place. After six attempts, the game will end and the word will be revealed to the user.
 
-Welcome Lynne McGrail,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+The game is a process of elimination, combined with a little luck and logic. It's a great way to test your problem solving ability and a quick game during a coffee break in work! Don't get too competitive now. . .   
 
 ## Creating the Heroku app
 
