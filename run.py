@@ -198,11 +198,8 @@ def main():
     game.introduction()
 
 
-"""
-Defines the Wordchecker class, which handles all actions related to
-checking the user-provided "guess" input against the generated "answer".
-"""
-
+# Defines the Wordchecker class, which handles all actions related to
+# checking the user-provided "guess" input against the generated "answer".
 
 class WordChecker:
     """
