@@ -155,7 +155,7 @@ class Game:
                 self.play_again()
             else:
                 fore = Fore.YELLOW + Style.BRIGHT
-                chances = self.no_of_chances
+                chances = self.no_of_guesses
                 reset = Fore.RESET + Style.RESET_ALL
                 print(f"\nYou have {fore}{chances}{reset} chances left.\n")
             while True:
@@ -165,7 +165,6 @@ class Game:
                     self.no_of_guesses -= 1
                     self.display_guesses(user_input)
                     if user_input == self.word_checker.answer:
-                        score = 6 - self.no_of_chances
                         print(' \n')
                         print(pyfiglet.figlet_format(
                             "YOU WIN", justify="center", width=80))
