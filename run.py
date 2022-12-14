@@ -14,9 +14,6 @@ colorama.init(autoreset=True)
 # install & import pyfiglet module from
 # https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/
 
-result = pyfiglet.figlet_format("Word-It", font="digital")
-print(result)
-
 
 def get_answer_from_file():
     """
