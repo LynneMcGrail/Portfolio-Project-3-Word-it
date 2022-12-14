@@ -1,9 +1,12 @@
 """
-Main run game file for 'Word-It'
+Main function to run game the file for 'Word-It'
 """
 
 import sys
 import random
+import colorama
+from colorama import Fore, Style
+
 
 # install & import pyfiglet module from https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/
 import pyfiglet
