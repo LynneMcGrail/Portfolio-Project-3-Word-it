@@ -5,7 +5,8 @@ Main function to run game the file for 'Word-It'
 import sys
 import random
 import colorama
-from colorama import Fore, Style
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
 
 
 # install & import pyfiglet module from https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/
