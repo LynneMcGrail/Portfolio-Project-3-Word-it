@@ -129,17 +129,20 @@ class Game:
         if user_choice == "p":
             os.system('clear')
             main()
-        
-        elif user_choice = "q":
+
+        elif user_choice == "q":
             print(" " + Fore.RESET)
             print(pyfiglet.figlet_format(
                 "GOODBYE", justify="center", width=80))
             exit()
+        else:
+            print(Fore.RED+"Not a valid option\n")
+            self.play_again()
 
 
 def main():
     """
-    Retrieve a random answer from the words.txt file. 
+    Retrieve a random answer from the words.txt file.
     """
     answer = get_word_from_file()
     game.introduction()
