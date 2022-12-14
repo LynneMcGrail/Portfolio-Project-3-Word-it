@@ -60,16 +60,16 @@ class Game:
             "WELCOME TO WORD-IT", justify="center", width=80))
         print(
             Fore.MAGENTA + Style.BRIGHT +
-            "Can you guess the word in just 6 tries?\n".center(80))
+            "Are you smart enough to beat me?\n".center(80))
         while True:
             self.username = input(
-                "Please enter your name to begin the game:\n").strip().capitalize()  # noqa
+                "                 Please enter your name to begin the game:\n").strip().capitalize()  # noqa
 
             if len(self.username.strip()) == 0:
                 print(f"{Fore.RED}Username invalid, must contain letters or numbers.\n")  # noqa
             else:
                 break
-        print(f"{Fore.MAGENTA}/nHello {self.username}, lets play Word-It!\n")
+        print(f"{Fore.MAGENTA}\nHello {self.username}, lets play Word-It!\n")
         self.user_menu()
 
     def user_menu(self):
@@ -79,7 +79,7 @@ class Game:
         """
         print('Choose from the following options:\n')
         user_option = input(
-            f"{Fore.MAGENTA}P - PLAY/nI - INSTRUCTIONS{Fore.RESET}\n"
+            f"{Fore.MAGENTA}P - PLAY \nI - INSTRUCTIONS{Fore.RESET}\n"
         ).strip().lower()
 
         if user_option == "p":
@@ -88,25 +88,27 @@ class Game:
         elif user_option == "i":
             #  Credit: https://www.asciiart.eu/art-and-design/borders
             intro_message = """
-             __| |____________________________________________| |__
-            (__   ____________________________________________   __)
-               | |                                            | |
-               | |            How to Play Word-It             | |
-               | |                                            | |
-               | |   Guess the word in six or less attempts   | |
-               | |                                            | |
-               | |  Each guess must be a valid 5 letter word  | |
-               | |                                            | |
-               | | After each guess, the color of the letters | |
-               | |   will change to show how close your guess | |
-               | |              was to the word!              | |
-               | |                                            | |
-               | |   Green is a correct letter and position   | |
-               | | Yellow is a correct letter, wrong position | |
-               | |           Red is a wrong letter            | |
-             __| |____________________________________________| |__
-            (__   ____________________________________________   __)
-               | |                                            | |
+             ________________________________________________
+            /  \                                             \.
+            |   |                                             |.
+            \_ /|            How to Play Word-It              |.
+                |   Guess the word in six or less attempts    |.
+                |  Each guess must be a valid 5 letter word   |.
+                |                                             |.
+                | After each guess, the color of the letters  |.
+                |                                             |.
+                |  will change to show how close your guess   |.
+                |              was to the word!               |.
+                |                                             |.
+                |    Green is a correct letter and position   |.
+                |  Yellow is a correct letter, wrong position |.
+                |          Red is an incorrect letter         |.
+                |                                             |.
+                |             Let the game begin!             |.
+                |                                             |.
+                |   __________________________________________|___
+                |  /                                             /.
+                \_/_____________________________________________/.
             """
             print(intro_message)
             self.ask_for_guess()
@@ -122,7 +124,7 @@ class Game:
         """
         print('Choose from the following options:\n')
         user_choice = input(
-            Fore.MAGENTA + "P - PLAY AGAIN\nQ - QUIT\n"
+            Fore.MAGENTA + "P - PLAY AGAIN\n" "Q - QUIT\n"
             ).strip().lower()
 
         if user_choice == "p":
@@ -190,7 +192,8 @@ def main():
     """
     Retrieve an answer string from the words.txt file.
     Create new instance of WordChecker, passing the answer as a parameter.
-    Create new instance of Game, passing the WordChecker instance as a parameter.
+    Create new instance of Game,
+    passing the WordChecker instance as a parameter.
     Start the game using the introduction() method.
     """
     answer = get_answer_from_file()
