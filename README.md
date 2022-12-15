@@ -12,6 +12,17 @@ The game is a process of elimination, combined with a little luck and logic. It'
 ## Final Design 
 ![Final project image home page](insert amiresponsive png image)
 
+## Initial Idea Concept
+My idea for this Python project was to replicate the Wordle game, because it is well-known, and if a user has never played it before it is simple to play which is why I included the option for the user to read the game instructions on starting the game. My game Word-It has replay ability as the site allows users to play again with a random generator imported into my code so that a different word is retrieved from the database contained in the words.txt file, this allows users to challenge themselves. This game functionality and word database is suitable for all ages and skill levels. I chose to use coloured text in my code so that it appealed to users and was clearly indicating their progress, this is further explained below in the 'Colour' section. [insert link to Colorama]
+
+#### The features I wanted to include:
+* Interactive game play elements to enhance user experience, the user is asked for their username and then the AI returns a welcome message and retrieves their name from the data they input.
+* The total number of guesses is printed on starting the game
+* And as the user guesses, the remaining number of guesses is printed on each input request to the user so that the user can see how many more chances they have to guess the word. 
+* Colour indicators that let the user know if any of the letters they entered are correct, green indicates a correct letter and the right position, a yellow letter indicates a correct lettter, but in the wrong position and letters that are not in the word are incorrect and these are printed in red. 
+* I wanted to create an app that was easily accessible and user friendly, with options for the user to play again or simply quit on finishing their first game. 
+* For Word-It to look fun and interactive I not only used colours, but used ASCII borders and text to enhance the users experience and enjoyment. This can be seen on the initial start screen 'Welcome to Word-It' and throughout the gameplay when the user wins; 'You Win', and if the user decides to quit the game 'Goodbye' is printed in ASCII art words.
+
 ## Creating the Heroku app
 
 When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
