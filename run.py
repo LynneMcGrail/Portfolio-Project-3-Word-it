@@ -149,7 +149,7 @@ class Game:
             if self.no_of_guesses == 0:
                 print(' \n')
                 print("GAME OVER")
-                fore = Fore.WHITE + Style.BRIGHT
+                fore = Fore.CYAN + Style.BRIGHT
                 upper_answer = self.word_checker.answer.upper()
                 print(f"The answer was....{fore}{upper_answer}\n")
                 self.play_again()
