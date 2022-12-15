@@ -66,7 +66,7 @@ class Game:
                 print(f"{Fore.RED}Username invalid, must contain letters or numbers.\n")  # noqa
             else:
                 break
-        print(f"{Fore.MAGENTA}\nHello {self.username}, lets play Word-It!\n")
+        print(f"{Fore.MAGENTA}{Style.BRIGHT}\nHello {self.username}, lets play Word-It!\n")
         self.user_menu()
 
     def user_menu(self):
@@ -76,7 +76,7 @@ class Game:
         """
         print('Choose from the following options:\n')
         user_option = input(
-            f"{Fore.MAGENTA}P - PLAY \nI - INSTRUCTIONS{Fore.RESET}\n"
+            f"{Fore.MAGENTA}{Style.BRIGHT}P - PLAY \nI - INSTRUCTIONS{Fore.RESET}\n"
         ).strip().lower()
 
         if user_option == "p":
@@ -121,7 +121,8 @@ class Game:
         """
         print('Choose from the following options:\n')
         user_choice = input(
-            Fore.MAGENTA + "P - PLAY AGAIN\n" "Q - QUIT\n"
+            Fore.MAGENTA + Style.BRIGHT +
+            "P - PLAY AGAIN\n" "Q - QUIT\n"
             ).strip().lower()
 
         if user_choice == "p":
@@ -148,7 +149,7 @@ class Game:
             if self.no_of_guesses == 0:
                 print(' \n')
                 print("GAME OVER")
-                fore = Fore.YELLOW + Style.BRIGHT
+                fore = Fore.WHITE + Style.BRIGHT
                 upper_answer = self.word_checker.answer.upper()
                 print(f"The answer was....{fore}{upper_answer}\n")
                 self.play_again()
