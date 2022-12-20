@@ -57,6 +57,13 @@ My idea for this Python project was to replicate the Wordle game, because it is 
   * [CODE](#code-sources)
 - [ACKNOWLEDGEMENTS](#acknowledgements)
 
+# UX/UI
+This Word-It game was created to show my programming knowledge of Python so far with Code Institute.
+## Site Goals
+* To showcase my skills in Python.
+* To create a user experience that was intellectually challenging, engaging and rewarding.
+* To create an app that functions well, returns feedback to the user and is easily accessible to all. 
+* To entice the user to play the game again.
 
 
 ## Creating the Heroku app
