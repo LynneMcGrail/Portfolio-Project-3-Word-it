@@ -92,10 +92,10 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 #
 ## Expectations 
-- The user will be required to enter their username to start the game and the AI will welcome the user and import the data they input as their username
-- The user will have the option to initiate game play or read the instructions, this is an option as a returning user will be familiar with how to play and may not want to read this every time.
-- I expect after each guess that the app will provide feedback to the user and let them know which letters are correct (green), correct but in the wrong letter space (yellow) or incorrect and not in the word (red), and should they not guess the letter in their 6 guesses, the game will return the word they were trying to guess.
-- I expect the user to be able to choose to play again, or quit the game, on which if they choose to quit, a "Goodbye" message will be displayed to the user.
+- The user will be prompted to enter their username to start the game and the AI will welcome the user and import the data they input as their username.
+- The user will have the choice to either initiate game play or read the instructions, this is an option as a returning user will be familiar with how to play and may not want to read the instructions every time.
+- I expect that after each guess, the app will provide feedback to the user and let them know which letters are correct (green), correct but in the wrong letter space (yellow) or incorrect and not in the word (red), and should the user not guess the word within the 6 guesses, the game will return the word they were trying to guess.
+- Game over - I expect the user to be able to choose to play again, or quit the game, on which if they choose to quit, a "Goodbye" message will be displayed to the user. If they choose to play again, the game will clear and start from the beginning.
 
 
 ## Creating the Heroku app
