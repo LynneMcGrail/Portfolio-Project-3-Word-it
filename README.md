@@ -110,6 +110,11 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/welcome-screen.png" width=600>
 
+* The game validates the user input, by ensuring the data entered consists of numbers or letters, they cannot submit blank space. An error message will appear if the data is invalid.
+
+<img src="assets/readme-docs/username-validation.png" width=600>
+
+
 
 
 ## Creating the Heroku app
