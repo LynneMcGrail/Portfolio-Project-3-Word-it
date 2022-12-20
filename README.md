@@ -153,6 +153,22 @@ The **user** is any person who enjoys word games and likes to test their problem
 * Each time a user inputs their next guess, the previous guess along with the new one are printed in a list format. This helps the user determine, by process of elimination, which letters they have already guessed, and any changes they might make to the order of the letters depending on the feedback colour indicators.
 * After each guess they make, their remaining guesses is displayed.
 
+<img src="assets/readme-docs/first-guess.png" width=600><br>
+
+<img src="assets/readme-docs/guesses-remaining.png" width=600>
+
+### Game Won
+* If the user guesses the correct word, the game ends and a "You Win" message is displayed.
+
+<img src="assets/readme-docs/game-won.png" width=600>
+
+### Game Lost
+* If the player uses all 6 guesses without guessing the correct word, the game will end and the game over message is displayed and the correct word is revealed to the user. 
+
+<img src="assets/readme-docs/game-over.png" width=600>
+
+
+<img src="" width=600>
 <img src="" width=600>
 <img src="" width=600>
 
