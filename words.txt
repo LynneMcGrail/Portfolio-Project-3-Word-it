@@ -15,3 +15,11 @@ three
 years
 place
 sound
+dream
+cloud
+apple
+award
+beach
+check
+grade
+adult
