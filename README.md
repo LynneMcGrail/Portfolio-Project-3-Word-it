@@ -103,6 +103,14 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/Wordit_Flowchart.png" width=600>
 
+## Game Features
+### Welcome Start Screen
+* On entering the site, the user is greeted with a welcome message and prompted to input their name to begin.
+* The welcome message was created using Pyfiglet which takes ASCII text and renders it in [ASCII art fonts](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)<br>
+
+<img src="assets/readme-docs/welcome-screen.png" width=600>
+
+
 
 ## Creating the Heroku app
 
