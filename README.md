@@ -167,6 +167,20 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/game-over.png" width=600>
 
+### Game Over 
+* The game over menu appears on completing the game, the user is presented with the option to play again, or quit. 
+* The app can handle the input of lowercase or uppercase letters for the user's choice to play - "P" "p" or quit - "Q" "q".
+* Error handling will display an error message if the user inputs an invalid option.
+
+<img src="assets/readme-docs/game-over-menu.png" width=600>
+
+* If the user chooses quit, a goodbye message appears and the game is ended using the exit()method.
+
+<img src="assets/readme-docs/quitgame-goodbye.png" width=600>
+
+* If the user chooses to play again, the terminal is cleared using the os.system(clear) method and the game starts again from the beginning.
+
+
 
 <img src="" width=600>
 <img src="" width=600>
