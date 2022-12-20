@@ -4,7 +4,7 @@
 ## Project Purpose 
 Word-It is a five letter word guessing game that is based on the popular daily online game "Wordle". I chose to base my project off this because I became addicted to Wordle during the pandemic, and have a passion for word games. The rules are simple, the user aims to guess a random 5 letter word within six attempts. They will be given colour coded indicators as they play, highlighting whether a letter is correct, incorrect, or correct but just in the wrong position. After six attempts, if the user has not guessed the answer, the game will end and the word will be revealed to the user. If the user guesses the word within their six attempts, they will get a "YOU WIN" message and can play again, or quit. 
 
-The game is a process of elimination, combined with a little luck and logic. It's a great way to test a user's problem solving ability and a quick game to do during a coffee break in work! Don't get too competitive now...
+The game is a process of elimination, combined with a little luck and logical thinking. It's a great way to test a user's problem solving ability and a quick game to do during a coffee break in work! Don't get too competitive now...
 
 * [Here is a link to my Github Repo for PP3 Word-It](https://lynnemcgrail.github.io/ - FINISH LINK HERE)
 * [Here is a link to my Heroku App - Word-It](https://word-it.herokuapp.com/)
@@ -60,10 +60,37 @@ My idea for this Python project was to replicate the Wordle game, because it is 
 # UX/UI
 This Word-It game was created to show my programming knowledge of Python so far with Code Institute.
 ## Site Goals
-* To showcase my skills in Python.
+* To showcase my software development skills in Python.
 * To create a user experience that was intellectually challenging, engaging and rewarding.
 * To create an app that functions well, returns feedback to the user and is easily accessible to all. 
 * To entice the user to play the game again.
+
+## First Time Visitor and Returning Visitor Goals
+* I want it to be easy for the user to play the game.
+* I want the user to be able to easily navigate throughout the instructions and understand the gameplay.
+* I want the user to be enticed to play the game again.
+* I want the game to select a different word each time the user plays, and will achieve this by using the Python library [random](https://docs.python.org/3/library/random.html?highlight=random#module-random) - `random.choice`, which will select a random word from the words.txt file.
+
+#
+## User Stories  
+The **user** is any person who enjoys word games and likes to test their problem solving skills.
+
+| ID | ROLE | ACTION | GOAL |
+|-----------------|:-------------|:---------------:|:---------------:|
+| 1 | USER | As a user, I want to guess the word in 6 guesses or less | So I can win Word-It and challenge myself|
+| 2 | USER | As a user, I want to navigate the game play easily | So it enhances my user experience|
+| 3 | USER | As a user, I want to be able to start the game when I am ready | So I can prepare myself |
+| 4 | USER | As a user, I want the choice to load the game instructions if I need them | So I can decide if I need them or not |
+| 5 | USER | As a user, I want to see how many letters are correct / incorrect as I play | So I can see how close I am to winning |
+| 6 | USER | As a user, I want to be able to play again when the game ends with a new word | So I can challenge myself|
+| 7 | USER | As a user, When the game ends, I want the option to quit or play again | So I can choose to leave if I want to|
+
+#
+## Requirements 
+- Easy to navigate and understand the game play, which is enabled via the instructions menu option
+- Keep the user engaged through user experience; the use of Pyfiglet word art, username input and welcome message which addresses the user, guess validation, guess colour coded letter feedback, user's remaining guesses counter throughout the gameplay, game over win / lose, the correct word displayed if the user loses, and giving the user the option to play again or quit - on quitting the game displays a goodbye message.
+
+
 
 
 ## Creating the Heroku app
