@@ -180,6 +180,10 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 * If the user chooses to play again, the terminal is cleared using the os.system(clear) method and the game starts again from the beginning.
 
+### Future Features
+* To add a leaderboard that stores the data of the user's attempts so when they play again, they can try to beat themselves. 
+* The user can choose the length of the word they would like to guess, e.g. 4/5/6 letters.
+
 
 
 <img src="" width=600>
