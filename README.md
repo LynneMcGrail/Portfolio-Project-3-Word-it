@@ -128,8 +128,27 @@ The **user** is any person who enjoys word games and likes to test their problem
 ### Instructions: How to play
 * If the user inputs "I" or "i", the instructions on how to play the game will be displayed.
 * The instructions are simple and contained within a scroll to make it fun and a feature which makes it feel like an old gameboy style game, this was reminiscent from my childhood and created using [ASCII art](https://www.asciiart.eu/art-and-design/borders)
+* The game will start below the scroll
 
 <img src="assets/readme-docs/game-instructions.png" width=600>
+
+### Game Play
+* When the user selects "P" or "p" from the menu, the game will start. Or had they chosen the instructions, the game will play immediately below the scroll displaying the instructions on how to play the game. 
+* The user is told they have 6 chances and are asked to enter a 5 letter word as their first guess.
+
+<img src="assets/readme-docs/menu-play.png" width=600>
+
+### Input Validation and Error Handlin
+* The user's guess is validated to ensure:
+    * The guess must be 5 characters in length
+    * It must contain all letters and no blank space
+    * If the data input is invalid, the user will be given an error message in red writing and asked to input a new guess
+
+<img src="assets/readme-docs/input-validation-error-handling.png" width=600>
+
+
+<img src="" width=600>
+<img src="" width=600>
 
 
 ## Creating the Heroku app
