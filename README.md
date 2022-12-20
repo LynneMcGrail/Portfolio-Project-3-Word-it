@@ -114,6 +114,11 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/username-validation.png" width=600>
 
+### Menu 
+* Once the username has input their name, the computer will greet them by name.
+* They will then be asked if they would like to play the game or read the instructions by inputting "P" or "I".
+* The input can be upper or lower case, the app can handle both inputs by using the function, lower()
+* If the user does not input a "P", "p", "I" or an "i" they will get an error message asking them to input a valid option.
 
 
 
