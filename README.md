@@ -32,7 +32,7 @@ My idea for this Python project was to replicate the Wordle game, because it is 
     * [USERSTORIES](#user-stories)
     * [REQUIREMENTS](#requirements)
     * [EXPECTATIONS](#expectations)
-- [WIREFRAMES](#wireframes)
+- [LOGICFLOW](#logicflow)
   * [FEATURES](#features)
   * [DESIGN](#design)
 - [LANGUAGES USED](#languages-used)
@@ -96,6 +96,12 @@ The **user** is any person who enjoys word games and likes to test their problem
 - The user will have the choice to either initiate game play or read the instructions, this is an option as a returning user will be familiar with how to play and may not want to read the instructions every time.
 - I expect that after each guess, the app will provide feedback to the user and let them know which letters are correct (green), correct but in the wrong letter space (yellow) or incorrect and not in the word (red), and should the user not guess the word within the 6 guesses, the game will return the word they were trying to guess.
 - Game over - I expect the user to be able to choose to play again, or quit the game, on which if they choose to quit, a "Goodbye" message will be displayed to the user. If they choose to play again, the game will clear and start from the beginning.
+
+## Logic Flow 
+### Lucid Chart 
+* I used [Lucid Chart](https://www.lucidchart.com/pages/) to create a flow chart in order to visualise the game play, and how each of the stages in the game would execute and from this, I was able to make a plan for the functions that would be required in Python.
+
+<img src="assets/readme-docs/Wordit_Flowchart.png" width=600>
 
 
 ## Creating the Heroku app
