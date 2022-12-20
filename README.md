@@ -90,7 +90,12 @@ The **user** is any person who enjoys word games and likes to test their problem
 - Easy to navigate and understand the game play, which is enabled via the instructions menu option
 - Keep the user engaged through user experience; the use of Pyfiglet word art, username input and welcome message which addresses the user, guess validation, guess colour coded letter feedback, user's remaining guesses counter throughout the gameplay, game over win / lose, the correct word displayed if the user loses, and giving the user the option to play again or quit - on quitting the game displays a goodbye message.
 
-
+#
+## Expectations 
+- The user will be required to enter their username to start the game and the AI will welcome the user and import the data they input as their username
+- The user will have the option to initiate game play or read the instructions, this is an option as a returning user will be familiar with how to play and may not want to read this every time.
+- I expect after each guess that the app will provide feedback to the user and let them know which letters are correct (green), correct but in the wrong letter space (yellow) or incorrect and not in the word (red), and should they not guess the letter in their 6 guesses, the game will return the word they were trying to guess.
+- I expect the user to be able to choose to play again, or quit the game, on which if they choose to quit, a "Goodbye" message will be displayed to the user.
 
 
 ## Creating the Heroku app
