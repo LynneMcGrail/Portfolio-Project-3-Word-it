@@ -138,7 +138,7 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/menu-play.png" width=600>
 
-### Input Validation and Error Handlin
+### Input Validation and Error Handling
 * The user's guess is validated to ensure:
     * The guess must be 5 characters in length
     * It must contain all letters and no blank space
@@ -146,6 +146,12 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/input-validation-error-handling.png" width=600>
 
+### User Guess Feedback 
+* When the user inputs a valid guess, their word is printed back to them and centered on the screen.
+* A coloured background is applied to each letter to indicate whether a letter is correct, incorrect, or correct but in the wrong letter space (as per the detailed instructions on how to play Word-It). This is achieved using [Colorama](https://pypi.org/project/colorama/)
+* Black letters are used against the coloured background to ensure good user accessibility and readability.
+* Each time a user inputs their next guess, the previous guess along with the new one are printed in a list format. This helps the user determine, by process of elimination, which letters they have already guessed, and any changes they might make to the order of the letters depending on the feedback colour indicators.
+* After each guess they make, their remaining guesses is displayed.
 
 <img src="" width=600>
 <img src="" width=600>
