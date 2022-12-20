@@ -125,8 +125,11 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/menu-validation.png" width=600>
 
+### Instructions: How to play
+* If the user inputs "I" or "i", the instructions on how to play the game will be displayed.
+* The instructions are simple and contained within a scroll to make it fun and a feature which makes it feel like an old gameboy style game, this was reminiscent from my childhood and created using [ASCII art](https://www.asciiart.eu/art-and-design/borders)
 
-
+<img src="assets/readme-docs/game-instructions.png" width=600>
 
 
 ## Creating the Heroku app
