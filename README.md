@@ -320,3 +320,21 @@ If you need to make a local clone:
 
 #
 # CREDITS AND REFERENCES
+## CODE
+* [W3Schools](https://www.w3schools.com/)<br>
+For further developing my understanding of `Python functions` and how they can be implemented
+* [Stackoverflow](https://stackoverflow.com/questions/27076239/adding-scoring-system-to-a-number-guessing-game-including-play-again)<br>
+For a guide on how to implement a `restart game function`
+* [Counter](https://stackoverflow.com/questions/1155617/count-the-number-of-occurrences-of-a-character-in-a-string) and [Library Collections](https://docs.python.org/3/library/collections.html)<br>
+These sources on `stackoverflow` and `python.org` helped with the `Collections Counter` method relating to the occurrences of a character in a string.
+* [Python String Methods](https://www.youtube.com/watch?v=edeJtMXgW_0&ab_channel=Appficial)<br>
+For `Python` string methods 
+* [ASCII Art Fonts](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)<br>
+The `welcome message` , `you win` , and `goodbye` messages were created using `Pyfiglet` which takes ASCII text and renders it in ASCII art fonts.
+* [ASCII Art Borders](https://www.asciiart.eu/art-and-design/borders)<br>
+The instructions are displayed within a scroll to make it fun and a feature which makes it feel like an old gameboy style game, this was created using `ASCII Art Borders`.
+* `Tech with Tim` on [Youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y&ab_channel=TechWithTim) and [GitHub](https://github.com/techwithtim/ColoredTextInPython/blob/main/main.py)<br>
+to learn how to import `Colorama` and change the text colour and background colours within the terminal to enable colour coding and validation of the user's guesses.
+* [Program Arcade Games](http://programarcadegames.com/python_examples/show_file.php?file=game_class_example.py)<br>
+To further my development and understanding of the use of `classes` in `Game` development in Python. No code directly used, but found it a helpful read on how to create games and look at different approaches in Python.
+
