@@ -241,8 +241,8 @@ To colour code the text in the terminal and providing validation feedback to the
 [Library Collections](https://docs.python.org/3/library/collections.html)<br>
 These sources on `stackoverflow` and `python.org` helped with the Collections Counter method relating to the occurrences of a character in a string.
 
-## Deployment
-
+# Deployment
+## Heroku
 The site was deployed via [Heroku](https://dashboard.heroku.com/apps), and the live link can be found here: [Word-It](https://word-it.herokuapp.com/)
 
 Before deploying to Heroku pip3 freeze > requirements.txt was used to add all the dependencies required to the requirements.txt file. This is required for the game to run on Heroku.
@@ -271,14 +271,52 @@ The following steps were taken:
 21. Click `View` to navigate to the deployed site.
 
 ## Version control
+These commands were used for version control during project:
+* git add `example filename` - to add files before committing
+* git commit -m `"example message"` - to commit changes to the local repository
+* git push - to push all committed changes to the GitHub repository
+* git branch - to see which branch currently working on
+* git pull - to pull all code into main branch once the feature branch had been merged and deleted
+* git status - to see if the branch currently working on is upto date or if the are any unstaged
+* git log --oneline - to see the last commit
+* git commit --amend - to amend the most recent commit message
 
-* These commands were used for version control during project:
+## How to create a branch/Tag of main:
+If you need to `BRANCH` off of the main repository:
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it
+2. On the left side of the screen underneath the nav links, click the drop down box `Main`
+3. Inside the box you will see `Create new branch/tag`
+4. Inside the text box, enter the new branch or tag name i.e., `Features`
+5. Below the Branches Tags tab, you will see `Create branch: Features from "main"`
+6. Click on `Create branch: Features from "main"` and you will be taken to the new branch page you just called `Features`
 
-    * git add `example filename` - to add files before committing
-    * git commit -m `"example message"` - to commit changes to the local repository
-    * git push - to push all committed changes to the GitHub repository
-    * git branch - to see which branch currently working on
-    * git pull - to pull all code into main branch once the feature branch had been merged and deleted
-    * git status - to see if the branch currently working on is upto date or if the are any unstaged
-    * git log --oneline - to see the last commit
-    * git commit --amend - to amend the most recent commit message
+## How to fork a repository:
+If you need to `FORK` a repository:
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it
+2. In the top right corner, click `Fork`
+3. The next page will be the forked version of https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it but in your own repository
+
+## How to clone a repository:
+If you need to make a clone of this repository:
+1. Fork the repository https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it using the steps above
+2. Above the file list, click `Code` (usually green at the top right of the code window)
+3. Choose if you want to clone using HTTPS, SSH or GitHub CLI, then click the copy button to the right
+4. Open Git Bash
+5. Change the directory to where you want your clone to go (your own github)
+6. Type `git clone` and then paste the URL you copied in step 4
+7. Press `Enter` to create your clone
+
+## How to make a local clone:
+If you need to make a local clone:
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it
+2. Under the repository name, above the list of files, click `Code`
+3. Here you will have two options, `Clone` or `Download` the repository
+4. You should close the repository using HTTPS, clicking on the icon to copy the link
+5. At this point, you can launch the `Gitpod workspace` or choose your own directory
+5. Open Git Bash
+6. Change the current working directory to the new location of where you want the cloned directory to be located
+7. Type git clone and then paste the URL you copied in step 4
+8. Press Enter, to create your local clone to your chosen directory
+
+#
+# CREDITS AND REFERENCES
