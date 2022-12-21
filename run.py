@@ -60,7 +60,7 @@ class Game:
             "Are you smart enough to beat me?\n".center(80))
         while True:
             self.username = input(
-                "                Enter your name to begin the game:\n").strip().capitalize()  # noqa
+                "Please enter your name to begin the game:\n").strip().capitalize()  # noqa
 
             if len(self.username.strip()) == 0:
                 print(f"{Fore.RED}Username invalid, must contain letters or numbers.\n")  # noqa
