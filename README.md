@@ -220,13 +220,26 @@ Menu options were tested as to whether upper or lower case letters would be acce
 * Random word selection was tested that on playing the game again, the computer retrieved a different word from the `words.txt` file
 * All of these tests were carried out in my local terminal during development, and the Heroku terminal. 
 
-### Technologies Used
-## Programmes and Development
+## Technologies Used
+### Programmes and Development
 - Written and tested in [GitPod](https://gitpod.io/) 
 - This project uses [GitHub](https://github.com/) for utilising git version control
 - The project was deployed via [Heroku](https://heroku.com/)
 - [LucidChart](https://www.lucidchart.com/pages/) was used to create the flow chart for the game
 - The Python code was validated using [PEP8 CI Online](https://pep8ci.herokuapp.com/)
+
+## Python Libraries
+- [os](https://docs.python.org/3/library/os.html?highlight=os#module-os)<br>
+`os.system` is used to clear the terminal when starting a new game.
+- [random](https://docs.python.org/3/library/random.html?highlight=random#module-random)<br>
+`random.choice` is used to select a random word for the gameplay, from the `words.txt` file.
+- [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)<br>
+To take ASCII text and render it into ASCII art fonts.
+- [colorama](https://pypi.org/project/colorama/)<br>
+To colour code the text in the terminal and providing validation feedback to the user.
+- [Counter](https://stackoverflow.com/questions/1155617/count-the-number-of-occurrences-of-a-character-in-a-string)<br>
+[Library Collections](https://docs.python.org/3/library/collections.html)<br>
+These sources on `stackoverflow` and `python.org` helped with the Collections Counter method relating to the occurrences of a character in a string.
 
 
 
