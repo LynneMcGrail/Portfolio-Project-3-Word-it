@@ -220,6 +220,25 @@ Menu options were tested as to whether upper or lower case letters would be acce
 * Random word selection was tested that on playing the game again, the computer retrieved a different word from the `words.txt` file
 * All of these tests were carried out in my local terminal during development, and the Heroku terminal. 
 
+### Solved bugs and errors
+Throughout the development of this project, several automated (flake8) errors have been fixed i.e.
+* Indentation errors
+* Undefined variable name
+* Lines of code being too long
+* Not enough whitespace between functions
+* No new line at end of file
+* Invalid syntax errors
+* Imported but unused errors
+* Imported libraries that were unused, which I removed (e.g. I had installed `Pygame` originally but it was not needed)
+
+##  Fixed Bugs Include
+### Colorama Colour Coding Letters
+Colorama was used to add the colour coding to each of the letters in the user's guess. So that each time a user makes a guess, the colour coded guess is added to the `guesses_list` so that all their guesses can be printed back to them after each turn. Initially the colours were not printing out and the Colorama encoding was printing out alongside the user's guess, impairing readability. After researching online and using slack for assistance, I found that the colours would only print out as a string (not a list). In order to overcome this problem, I used a `for` loop to print out each string in the `guesses_list` separately. 
+
+### WordChecker
+Originally I had stored the code for the WordChecker function in a separate file, however the cross-checking of the user's letters guessed against the word selected by the random generator was not working. I made some changes and moved the code into the `run.py` file and it worked. So I removed the WordChecker.py file. 
+
+
 ## Technologies Used
 ### Programmes and Development
 - Written and tested in [GitPod](https://gitpod.io/) 
