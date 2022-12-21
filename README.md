@@ -118,7 +118,11 @@ The user is any person who enjoys word games and likes to test their problem sol
 ### Lucid Chart 
 * I used [Lucid Chart](https://www.lucidchart.com/pages/) to create a flow chart in order to visualise the game play, and how each of the stages in the game would execute and from this, I was able to make a plan for the functions that would be required in Python.
 
-<img src="assets/readme-docs/Wordit_Flowchart.png" width=600>
+  <details>
+  <summary>Flow Chart Diagram</summary>
+
+  ![Lucid Chart](assets/readme-docs/Wordit_Flowchart.png)
+</details><br>
 
 #
 ## Game Features
