@@ -270,3 +270,15 @@ The following steps were taken:
 20. Once the build process is complete (this can take a few seconds) you will then be able to view the live app by clicking on the button `View` below `Your app was successfully deployed`.
 21. Click `View` to navigate to the deployed site.
 
+## Version control
+
+* These commands were used for version control during project:
+
+    * git add `example filename` - to add files before committing
+    * git commit -m `"example message"` - to commit changes to the local repository
+    * git push - to push all committed changes to the GitHub repository
+    * git branch - to see which branch currently working on
+    * git pull - to pull all code into main branch once the feature branch had been merged and deleted
+    * git status - to see if the branch currently working on is upto date or if the are any unstaged
+    * git log --oneline - to see the last commit
+    * git commit --amend - to amend the most recent commit message
