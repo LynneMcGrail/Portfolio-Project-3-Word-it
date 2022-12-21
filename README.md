@@ -198,7 +198,7 @@ The `WordChecker` object validates the data input by the user with the randomly 
 
 ## Testing
 ### PEP8 CI Testing
-The `run.py` file has been passed through [PEP8 CI](https://pep8ci.herokuapp.com/). The file was checked with a few errors returned
+The `run.py` file has been passed through [PEP8 CI](https://pep8ci.herokuapp.com/). The file was checked with a few errors returned, detailed in unsolved errors below.
 
 <details>
   <summary>run.py</summary>
@@ -223,7 +223,9 @@ Menu options were tested as to whether upper or lower case letters would be acce
 * Random word selection was tested that on playing the game again, the computer retrieved a different word from the `words.txt` file
 * All of these tests were carried out in my local terminal during development, and the Heroku terminal. 
 
-### Solved bugs and errors
+## Bugs and Errors
+### Solved Bugs
+#### Automated Errors
 Throughout the development of this project, several automated (flake8) errors have been fixed i.e.
 * Indentation errors
 * Undefined variable name
@@ -234,12 +236,21 @@ Throughout the development of this project, several automated (flake8) errors ha
 * Imported but unused errors
 * Imported libraries that were unused, which I removed (e.g. I had installed `Pygame` originally but it was not needed)
 
-##  Fixed Bugs Include
-### Colorama Colour Coding Letters
+#### Colorama Colour Coding Letters
 Colorama was used to add the colour coding to each of the letters in the user's guess. So that each time a user makes a guess, the colour coded guess is added to the `guesses_list` so that all their guesses can be printed back to them after each turn. Initially the colours were not printing out and the Colorama encoding was printing out alongside the user's guess, impairing readability. After researching online and using slack for assistance, I found that the colours would only print out as a string (not a list). In order to overcome this problem, I used a `for` loop to print out each string in the `guesses_list` separately. 
 
-### WordChecker
+#### WordChecker
 Originally I had stored the code for the WordChecker function in a separate file, however the cross-checking of the user's letters guessed against the word selected by the random generator was not working. I made some changes and moved the code into the `run.py` file and it worked. So I removed the WordChecker.py file. 
+
+#### Reinstall libraries
+`Pyfliglet` and `Colorama` both uninstalled at one point, therefore I had to reinstall them and make sure I had the correct version of each. I then added them back to my `requirements.txt` file.
+
+### Unsolved Bugs
+#### Line Length Errors
+I fixed all line length errors bar one, on line 79 as this caused a break in the line of text when running the app. So I restored it to the original code and the game is working as expected.
+
+#### Invalid Escape Sequence Error
+The error `W605 invalid escape sequence '\ '` is appearing on lines 89, 91, 108 - this is a result of the scroll added to my code to display the game instructions. I researched the error online but unfortunately could not find a fix for it without completely removing it. It does not affect the code running and the app functioning as expected. 
 
 
 ## Technologies Used
