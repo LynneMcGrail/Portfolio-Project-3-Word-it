@@ -1,4 +1,4 @@
-# PORTFOLIO PROJECT - 3 PYTHON #
+# PORTFOLIO PROJECT - 3 PYTHON 
 
 # Word-It
 ## Project Purpose 
@@ -138,7 +138,7 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/menu-play.png" width=600>
 
-### Input Validation and Error Handling
+### Input Validation and Error Handling
 * The user's guess is validated to ensure:
     * The guess must be 5 characters in length
     * It must contain all letters and no blank space
@@ -146,7 +146,7 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 <img src="assets/readme-docs/input-validation-error-handling.png" width=600>
 
-### User Guess Feedback 
+### User Guess Feedback 
 * When the user inputs a valid guess, their word is printed back to them and centered on the screen.
 * A coloured background is applied to each letter to indicate whether a letter is correct, incorrect, or correct but in the wrong letter space (as per the detailed instructions on how to play Word-It). This is achieved using [Colorama](https://pypi.org/project/colorama/)
 * Black letters are used against the coloured background to ensure good user accessibility and readability.
@@ -180,11 +180,28 @@ The **user** is any person who enjoys word games and likes to test their problem
 
 * If the user chooses to play again, the terminal is cleared using the os.system(clear) method and the game starts again from the beginning.
 
-### Future Features
+### Future Features
 * To add a leaderboard that stores the data of the user's attempts so when they play again, they can try to beat themselves. 
 * The user can choose the length of the word they would like to guess, e.g. 4/5/6 letters.
 
+### Classes
+This Word-It consists of two classes
+- Game
+- WordChecker
 
+The `Game` object allows the game play to flow, handling user input and using this to display data back to the user. The methods which run the game from the welcome screen, to the usernname prompt, menu options, instructions, validating user input guesses, displaying the users answers and updating the status of the game as the user progresses through their turns.
+
+The `WordChecker` object validates the data input by the user with the randomly selected word which the user is trying to guess. This includes validating the user's input and error handling throughout the game, specifically the colour responsive feedback to the user for the game. 
+
+## Testing
+### PEP8 CI Testing
+The `run.py` file has been passed through [PEP8 CI](https://pep8ci.herokuapp.com/). The file was checked with a few errors returned
+
+<details>
+  <summary>run.py</summary>
+
+  ![Run](assets/readme-docs/PEP8CI-wordit.png)
+</details>
 
 <img src="" width=600>
 <img src="" width=600>
