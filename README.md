@@ -22,10 +22,10 @@ The game is a process of elimination, combined with a little luck and logical th
 - [UX/UI](#uxui)
     * [SITE GOALS](#site-goals)
     * [FIRST TIME VISITOR AND RETURNING VISITOR GOALS](#first-time-visitor-and-returning-visitor-goals)
-    * [USERSTORIES](#user-stories)
+    * [USER STORIES](#user-stories)
     * [REQUIREMENTS](#requirements)
     * [EXPECTATIONS](#expectations)
-- [LOGICFLOW](#logicflow)
+- [LOGIC FLOW](#logic-flow)
 - [GAME FEATURES](#game-features)
   * [WELCOME START SCREEN](#welcome-start-screen)
   * [MENU](#menu)
@@ -374,8 +374,8 @@ If you need to make a local clone:
 8. Press Enter, to create your local clone to your chosen directory
 
 #
-# CREDITS AND REFERENCES
-## Code
+## CREDITS AND REFERENCES
+### Code
 * [W3Schools](https://www.w3schools.com/)<br>
 For further developing my understanding of `Python functions` and how they can be implemented
 * [Stackoverflow](https://stackoverflow.com/questions/27076239/adding-scoring-system-to-a-number-guessing-game-including-play-again)<br>
@@ -390,10 +390,17 @@ The `welcome message` , `you win` , and `goodbye` messages were created using `P
 The instructions are displayed within a scroll to make it fun and a feature which makes it feel like an old gameboy style game, this was created using `ASCII Art Borders`.
 * `Tech with Tim` on [Youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y&ab_channel=TechWithTim) and [GitHub](https://github.com/techwithtim/ColoredTextInPython/blob/main/main.py)<br>
 to learn how to import `Colorama` and change the text colour and background colours within the terminal to enable colour coding and validation of the user's guesses.
+* [Code Institute: Build a game with Python](https://codeinstitute.net/ie/blog/game-with-python/)<br>
+Helpful blog post by Code Institute to aid my development and learning.
+* [Geeks for Geeks](https://www.geeksforgeeks.org/python-program-for-word-guessing-game/)<br>
+For understanding game play and code examples with explanations to aid my understanding of creating the game in Python.
 * [Program Arcade Games](http://programarcadegames.com/python_examples/show_file.php?file=game_class_example.py)<br>
 To further my development and understanding of the use of `classes` in `Game` development in Python. No code directly used, but found it a helpful read on how to create games and look at different approaches in Python. 
+* [Object Orientated Programming (OOP) in Python](https://realpython.com/python3-object-oriented-programming/)<br>
+To understand classes VS instances in developing the Word-It game.
 
-## Acknowledgements:
+
+### Acknowledgements
 - Code institute for the Mentors and Tutors on the course. Especially our class Facilitator and Mentor [Simen Daehlin](https://github.com/Eventyret) for sharing his expertise and helping us solve our problems to become better software developers.
 - My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for guiding me in the right direction and helping me establish good coding practice.
 - My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
