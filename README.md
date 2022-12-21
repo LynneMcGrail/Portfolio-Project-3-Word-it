@@ -220,6 +220,14 @@ Menu options were tested as to whether upper or lower case letters would be acce
 * Random word selection was tested that on playing the game again, the computer retrieved a different word from the `words.txt` file
 * All of these tests were carried out in my local terminal during development, and the Heroku terminal. 
 
+### Technologies Used
+## Programmes and Development
+- Written and tested in [GitPod](https://gitpod.io/) 
+- This project uses [GitHub](https://github.com/) for utilising git version control
+- The project was deployed via [Heroku](https://heroku.com/)
+- [LucidChart](https://www.lucidchart.com/pages/) was used to create the flow chart for the game
+- The Python code was validated using [PEP8 CI Online](https://pep8ci.herokuapp.com/)
+
 
 
 <img src="" width=600>
