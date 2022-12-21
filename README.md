@@ -9,7 +9,7 @@ Word-It is a five letter word guessing game that is based on the popular daily o
 
 The game is a process of elimination, combined with a little luck and logical thinking. It's a great way to test a user's problem solving ability and a quick game to do during a coffee break in work! Don't get too competitive now...
 
-* [Here is a link to my Github Repo for PP3 Word-It](https://lynnemcgrail.github.io/ - FINISH LINK HERE)
+* [Here is a link to my Github Repo for PP3 Word-It](https://github.com/LynneMcGrail/Portfolio-Project-3-Word-it)
 * [Here is a link to my Heroku App - Word-It](https://word-it.herokuapp.com/)
 
 ## Final Design 
