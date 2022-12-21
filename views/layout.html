@@ -14,6 +14,23 @@
             font-family: Arial;
         }
 
+        #bg-img {
+            background: url(assets/images/old-book-image.jpg) center center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -10;
+            height: 100vh;
+            width: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         /**
         * Default styles for xterm.js
         */
@@ -156,9 +173,9 @@
         }
 
         button {
-            width: 200px;
+            width: 220px;
             height: 40px;
-            background-color: #E84610;
+            background-color: #9a9313;
             border: 1px solid grey;
             color: white;
             text-transform: uppercase;
@@ -168,6 +185,9 @@
     </style>
 </head>
 
-@{body}
+<div id="container">
+    @{body}
+</div>
 
+<div id="bg-img"></div>
 </html>
