@@ -218,8 +218,10 @@ The `WordChecker` object validates the data input by the user with the randomly 
 ## Testing
 ### PEP8 CI
 The `run.py` file has been passed through [PEP8 CI](https://pep8ci.herokuapp.com/). The file was checked with a few errors returned, detailed in unsolved errors below.
+
 <details>
   <summary>run.py</summary>
+
   ![Run](assets/readme-docs/PEP8CI-wordit.png)
 </details><br>
 
