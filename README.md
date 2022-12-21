@@ -320,7 +320,7 @@ If you need to make a local clone:
 
 #
 # CREDITS AND REFERENCES
-## CODE
+## Code:
 * [W3Schools](https://www.w3schools.com/)<br>
 For further developing my understanding of `Python functions` and how they can be implemented
 * [Stackoverflow](https://stackoverflow.com/questions/27076239/adding-scoring-system-to-a-number-guessing-game-including-play-again)<br>
@@ -338,3 +338,10 @@ to learn how to import `Colorama` and change the text colour and background colo
 * [Program Arcade Games](http://programarcadegames.com/python_examples/show_file.php?file=game_class_example.py)<br>
 To further my development and understanding of the use of `classes` in `Game` development in Python. No code directly used, but found it a helpful read on how to create games and look at different approaches in Python.
 
+## Acknowledgements:
+- Code institute for the Mentors and Tutors on the course. Especially our class Facilitator and Mentor [Simen Daehlin](https://github.com/Eventyret) for sharing his expertise and helping us solve our problems to become better software developers.
+- My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for guiding me in the right direction and helping me establish good coding practice.
+- My fellow classmates for their ideas and enthusiasm on our facilitator sessions and masterclasses, and also their support on Slack.
+- Stack Overflow for troubleshooting and fixing errors
+- The Slack community for tips, advice, quick fixes and kind words. Especially [Chris Williams](https://github.com/Chr15w1986) who helped me solve bugs and gave me great advice for better coding practice.
+- My partner and family, for their encouragement, support and patience.
