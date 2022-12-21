@@ -39,7 +39,6 @@ The game is a process of elimination, combined with a little luck and logical th
   * [FUTURE FEATURES](#future-features)
 - [CLASSES](#classes)
 - [LANGUAGES USED](#languages-used)
-  * [PROGRAMMES USED](#programmes-used)
 - [TESTING](#testing)
   * [PEP8 CI](#pep8-ci)
   * [MANUAL TESTING](#manual-testing)
@@ -211,6 +210,10 @@ This Word-It consists of two classes
 The `Game` object allows the game play to flow, handling user input and using this to display data back to the user. The methods which run the game from the welcome screen, to the usernname prompt, menu options, instructions, validating user input guesses, displaying the users answers and updating the status of the game as the user progresses through their turns.
 
 The `WordChecker` object validates the data input by the user with the randomly selected word which the user is trying to guess. This includes validating the user's input and error handling throughout the game, specifically the colour responsive feedback to the user for the game. 
+
+## Languages Used
+* The project was written using [PYTHON3](https://en.wikipedia.org/wiki/Python_(programming_language))
+
 
 ## Testing
 ### PEP8 CI
