@@ -241,23 +241,32 @@ To colour code the text in the terminal and providing validation feedback to the
 [Library Collections](https://docs.python.org/3/library/collections.html)<br>
 These sources on `stackoverflow` and `python.org` helped with the Collections Counter method relating to the occurrences of a character in a string.
 
+## Deployment
 
+The site was deployed via [Heroku](https://dashboard.heroku.com/apps), and the live link can be found here: [Word-It](https://word-it.herokuapp.com/)
 
-<img src="" width=600>
-<img src="" width=600>
-<img src="" width=600>
+Before deploying to Heroku pip3 freeze > requirements.txt was used to add all the dependencies required to the requirements.txt file. This is required for the game to run on Heroku.
 
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
+The following steps were taken:
+1. Create an account and login to [Heroku](https://dashboard.heroku.com/apps).
+2. On the homepage click the button `New` in the top right corner and from the drop-down menu select "Create New App".
+3. Create a name for your app, making sure it is unique and descriptive. In this case it is `Word-It`
+4. Next select your region. I selected `Europe`.
+5. Click the `Create App` button.
+6. This will create your app in Heroku and take you to the Heroku dashboard.
+7. Navigate to the `Settings` tab and scroll down to `Reveal Config Vars`.
+8. Create a `Config Var` replace the word `KEY` and enter `PORT`, and then replace the word `VALUE` and enter `8000`, then click the `Add` button.
+9. Below `Config Vars` you will find the `Buildpacks` section, click `Add` Buildpack select `Python` and select `save changes`.
+10. Repeat `step 9` to add `node.js` and select `save changes`.
+11. It is important to make sure the buildpacks are in the correct order with `Python` being at the top and `node.js` on the bottom. If they are not in the correct order, you can click and drag to move them into the correct order.
+12. Navigate to the `Deploy` tab on the top left side.
+13. Select `Github, connect to github` as the deployment method.
+14. Confirm you want to connect to GitHub.
+15. Search for the GitHub Repository in the search field and click `connect`.
+16. Once your repository is connected to Heroku, scroll to the bottom of the deploy page and click `Enable Automatic Deploys` for automatic deployment. 
+17. Alternatively you can manually deploy by selecting a branch to deploy from and clicking `Deploy Branch`.
+18. If you choose to `Enable Automatic Deploys`, [Heroku](https://heroku.com/) will build a new version of the app when a change to `GitPod` is pushed to `GitHub`.  
+19. Manual deployment allows you to update the app whenever you click `Deploy Branch`. In the case of this project, I chose to `Enable Automatic Deploys` to ensure the code was deployed straight away at each push from `GitPod`.
+20. Once the build process is complete (this can take a few seconds) you will then be able to view the live app by clicking on the button `View` below `Your app was successfully deployed`.
+21. Click `View` to navigate to the deployed site.
 
