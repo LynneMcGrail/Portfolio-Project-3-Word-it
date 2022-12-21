@@ -201,7 +201,26 @@ The `run.py` file has been passed through [PEP8 CI](https://pep8ci.herokuapp.com
   <summary>run.py</summary>
 
   ![Run](assets/readme-docs/PEP8CI-wordit.png)
-</details>
+</details><br>
+
+### Manual Testing
+Input testing - all user input was tested and validated for error handling throughout the gameplay, and the appropriate feedback was displayed back to the user
+* Username input was tested so that the user must enter data containing letters or numbers, and error handling would display an error message and prompt the user to re-enter the data if they tried to enter an empty username consisting of blank space. The strip() method was also implemented to remove any extra whitespace after the user input their data.
+Menu options were tested as to whether upper or lower case letters would be accepted. Error handling will display an error message and reiterate the prompt again if the user inputs a letter other than P or I when navigating the menu. 
+* Guess input was tested so that the user:
+    * Must input a guess of 5 characters in length
+    * The guess must contain all letters and no blank space
+    * That if the data input is invalid, the AI will feedback an error message in red writing and asked to input a new guess
+* Colour coded responsive feedback: was tested that the correct colours were displayed back to the user and it was of good readability with the colour contrasts.
+* The user's remaining guesses was displayed after each guess.
+* That the game ends if the user guesses the word correctly, especially if before they reach the full allocation of 6 guesses.
+* That the game ends if the user does not guess the word correctly, and runs out of guesses. 
+* That the game over screen displays, with the option to play again or quit the game.
+* That the terminal clears if the user decides to play again, and a goodbye message is displayed if they choose to quit.
+* Random word selection was tested that on playing the game again, the computer retrieved a different word from the `words.txt` file
+* All of these tests were carried out in my local terminal during development, and the Heroku terminal. 
+
+
 
 <img src="" width=600>
 <img src="" width=600>
