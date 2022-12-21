@@ -60,13 +60,16 @@ class Game:
             "Are you smart enough to beat me?\n".center(80))
         while True:
             self.username = input(
-                "                 Please enter your name to begin the game:\n").strip().capitalize()  # noqa
+                "                Enter your name\
+                     to begin the game:\n").strip().capitalize()
 
             if len(self.username.strip()) == 0:
-                print(f"{Fore.RED}Username invalid, must contain letters or numbers.\n")  # noqa
+                print(f"{Fore.RED}Username invalid, \
+                    must contain letters or numbers.\n")
             else:
                 break
-        print(f"{Fore.MAGENTA}{Style.BRIGHT}\nHello {self.username}, lets play Word-It!\n")  # noqa
+        print(f"{Fore.MAGENTA}{Style.BRIGHT}\nHello {self.username}, \
+             lets play Word-It!\n")
         self.user_menu()
 
     def user_menu(self):
@@ -76,7 +79,8 @@ class Game:
         """
         print('Choose from the following options:\n')
         user_option = input(
-            f"{Fore.MAGENTA}{Style.BRIGHT}P - PLAY \nI - INSTRUCTIONS{Fore.RESET}\n"
+            f"{Fore.MAGENTA}{Style.BRIGHT}P - PLAY \nI - \
+                INSTRUCTIONS{Fore.RESET}\n"
         ).strip().lower()
 
         if user_option == "p":
